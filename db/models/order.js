@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const ObjectId = mongoose.Schema.Types.ObjectId;
-const orderItemSchema = require('./orderITEM.JS'); // make sure file name is correct!
+const orderItemSchema = require('./orderItem.js'); // make sure file name is correct!
 
 const orderSchema = new mongoose.Schema({
   user: {
